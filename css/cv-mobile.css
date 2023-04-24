@@ -1,0 +1,51 @@
+@media (max-width: 500px) {
+  .layout {
+    display: flex;
+    flex-direction: column;
+  }
+  .goal,
+  .member,
+  .pri,
+  .start,
+  .date {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .goal svg,
+  .member svg,
+  .pri svg {
+    align-self: center;
+  }
+
+  .scope-flex {
+    display: flex;
+    flex-direction: column;
+  }
+
+  /* --------------------fix number circle------------------------------ */
+
+  .number-circle,
+  .number-circle2,
+  .number-circle3,
+  .number-circle4 {
+    height: 50px;
+    width: 50px;
+  }
+
+  /* -------------------- FIX PRIMARY ICON ------------------------------ */
+
+  .pri .question2 {
+    width: 80px;
+    width: 80px;
+  }
+
+  .pri .question3 {
+    width: 80px;
+    width: 80px;
+  }
+  .pri .question4 {
+    width: 80px;
+    width: 80px;
+  }
+}

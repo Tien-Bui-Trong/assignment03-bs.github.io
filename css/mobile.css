@@ -1,0 +1,54 @@
+@media (max-width: 500px) {
+  .navbar .name-job {
+    display: none;
+  }
+
+  /* ---------------------------- NAV BAR-------------------------------------- */
+  .navbar {
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    align-items: start !important;
+  }
+
+  .navbar i {
+    padding: 7px;
+    border: none !important;
+  }
+
+  /* ---------------------------- PERSONAL INFOR-------------------------------------- */
+
+  .per-info .row {
+    flex-direction: column !important;
+  }
+
+  .job-info .row {
+    flex-direction: column !important;
+  }
+
+  /* ---------------------------- CERTIFICATE-------------------------------------- */
+
+  #certificate .row {
+    flex-direction: column !important;
+  }
+  #certificate .mobile-no-border {
+    border-left: none !important;
+  }
+  #certificate .database {
+    width: 100% !important ;
+  }
+  #certificate .java-border {
+    border-top: solid 1px #ffc107 !important;
+  }
+
+  /* ---------------------------- PROJECT-------------------------------------- */
+
+  #project .card {
+    width: 20rem !important;
+  }
+  #project .row {
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 10px;
+  }
+}

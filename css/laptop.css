@@ -1,0 +1,69 @@
+/* ---------------background image------------------ */
+body {
+  font-family: roboto, sans-serif;
+}
+#banner {
+  font-size: 32px;
+  font-weight: 100;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.2)),
+    url(../images/banner.jpg);
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+
+  color: white;
+  background-repeat: no-repeat;
+  text-align: center;
+  line-height: 1.3;
+}
+/* ------------------NAV BAR------------------------------- */
+.navbar a {
+  text-decoration: none;
+}
+.navbar i {
+  padding: 30px 40px 30px 40px;
+}
+.navbar .name-job {
+  padding: 0px 150px 0 150px;
+}
+/* ------------------PERSONAL INFORMAION---------------------------------- */
+.per-info .col {
+  padding-top: 100px;
+  padding-bottom: 40px;
+}
+
+.col1-target {
+  background-color: #f1f3f5;
+}
+.col2-info {
+  background-color: #e9ecef;
+}
+.per-info .list-group .list-group-item {
+  background-color: #e9ecef;
+}
+/* ----------------------JOB INFORMATION------------------------------ */
+
+.hob i {
+  width: 50px;
+  height: 50px;
+}
+
+.job-info span {
+  background: #199cdb;
+  display: inline-block;
+  height: 2px;
+  margin-right: 10px;
+  width: 45px;
+}
+.job-info .grey {
+  background: #ced4da;
+  display: inline-block;
+  height: 2px;
+  margin-right: 10px;
+  width: 45px;
+}
+
+#project .card {
+  /* width: 26rem; */
+  margin-right: 10px;
+}
